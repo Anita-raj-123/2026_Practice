@@ -31,7 +31,7 @@ public class Homepage extends BaseTest {
 	}
 	
 	public void searchpatient() throws InterruptedException {
-		searchpatient.sendKeys("VICO");
+		searchpatient.sendKeys("test1");
 		Thread.sleep(2000);
 		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 		
