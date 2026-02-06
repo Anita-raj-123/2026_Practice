@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcase.HomeTestCase">
+      <class name="com.qa.otherTestCase.FindAllLink">
         <methods>
-          <include name="init1"/>
-          <include name="TestHomePage"/>
+          <include name="Launch2"/>
           <include name="teardown"/>
+          <include name="findAllLink_TestCase"/>
         </methods>
-      </class> <!-- com.qa.testcase.HomeTestCase -->
+      </class> <!-- com.qa.otherTestCase.FindAllLink -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

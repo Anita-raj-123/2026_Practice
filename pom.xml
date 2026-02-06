@@ -96,13 +96,23 @@
 
 		
 		
-		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports 
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>5.1.2</version>
-</dependency>
+</dependency>  -->
 
+
+<!--  
+	Source: https://mvnrepository.com/artifact/com.relevantcodes/extentreports  -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+    <scope>compile</scope>
+</dependency>
+ 
 
 		<!-- ttps://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>

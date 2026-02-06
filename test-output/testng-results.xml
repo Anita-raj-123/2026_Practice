@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-04T22:03:43 IST" name="Default suite" finished-at="2026-02-04T22:04:03 IST" duration-ms="20209">
+  <suite started-at="2026-02-07T00:42:40 IST" name="Default suite" finished-at="2026-02-07T00:42:56 IST" duration-ms="15933">
     <groups>
     </groups>
-    <test started-at="2026-02-04T22:03:43 IST" name="Default test" finished-at="2026-02-04T22:04:03 IST" duration-ms="20209">
-      <class name="com.qa.testcase.HomeTestCase">
-        <test-method is-config="true" signature="init1()[pri:0, instance:com.qa.testcase.HomeTestCase@31190526]" started-at="2026-02-04T22:03:43 IST" name="init1" finished-at="2026-02-04T22:03:53 IST" duration-ms="9864" status="PASS">
+    <test started-at="2026-02-07T00:42:40 IST" name="Default test" finished-at="2026-02-07T00:42:56 IST" duration-ms="15933">
+      <class name="com.qa.otherTestCase.FindAllLink">
+        <test-method is-config="true" signature="Launch2()[pri:0, instance:com.qa.otherTestCase.FindAllLink@662ac478]" started-at="2026-02-07T00:42:40 IST" name="Launch2" finished-at="2026-02-07T00:42:49 IST" duration-ms="8657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init1 -->
-        <test-method signature="TestHomePage()[pri:0, instance:com.qa.testcase.HomeTestCase@31190526]" started-at="2026-02-04T22:03:53 IST" name="TestHomePage" finished-at="2026-02-04T22:04:03 IST" duration-ms="10061" status="PASS">
+        </test-method> <!-- Launch2 -->
+        <test-method signature="findAllLink_TestCase()[pri:0, instance:com.qa.otherTestCase.FindAllLink@662ac478]" started-at="2026-02-07T00:42:49 IST" name="findAllLink_TestCase" finished-at="2026-02-07T00:42:56 IST" duration-ms="6731" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestHomePage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcase.HomeTestCase@31190526]" started-at="2026-02-04T22:04:03 IST" name="teardown" finished-at="2026-02-04T22:04:03 IST" duration-ms="202" status="PASS">
+        </test-method> <!-- findAllLink_TestCase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.otherTestCase.FindAllLink@662ac478]" started-at="2026-02-07T00:42:56 IST" name="teardown" finished-at="2026-02-07T00:42:56 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.qa.testcase.HomeTestCase -->
+      </class> <!-- com.qa.otherTestCase.FindAllLink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

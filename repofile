@@ -1,0 +1,31 @@
+<!-- Source: https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+    <scope>compile</scope>
+</dependency>
+
+
+**************************************************************************************
+<input id="username" type="text">
+
+\\div[contains(@id = 'username')]
+\\div[conatins(text(),'submit')]
+\\div[conatins(@type,'button')]
+
+
+**************************************************************************************
+<input id="user_12345" type="text">
+<input id="user_98765" type="text">
+
+
+//input[starts-with(@id,'user_')]
+//button[starts-with(text(),'Pay')]
+
+
+**************************************************************************************
+<input id="12345_email" type="text">
+<input id="67890_email" type="text">
+
+//input[ends-with(@id,'_email')]
