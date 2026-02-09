@@ -29,3 +29,15 @@
 <input id="67890_email" type="text">
 
 //input[ends-with(@id,'_email')]
+
+
+**************************************************************************************
+
+| Tool                      | Best for                         | Skill Level           |
+| ------------------------- | -------------------------------- | --------------------- |
+| **testRigor / Testsigma** | No-code automation               | Beginner–Intermediate |
+| **Testim / Autify**       | Hybrid automation + self-healing | Intermediate          |
+| **Applitools**            | Visual testing                   | All levels            |
+| **Diffblue**              | Unit test generation             | Developers            |
+| **BotGauge / CoTester**   | Fast enterprise automation       | Teams                 |
+
