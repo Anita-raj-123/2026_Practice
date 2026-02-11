@@ -1,21 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-10T00:40:45 IST" name="Default suite" finished-at="2026-02-10T00:41:02 IST" duration-ms="17317">
+  <suite started-at="2026-02-11T23:56:40 IST" name="Default suite" finished-at="2026-02-11T23:57:15 IST" duration-ms="35002">
     <groups>
     </groups>
-    <test started-at="2026-02-10T00:40:45 IST" name="Default test" finished-at="2026-02-10T00:41:02 IST" duration-ms="17317">
-      <class name="com.qa.testcase.RegisterPatientTestCase">
-        <test-method is-config="true" signature="init1()[pri:0, instance:com.qa.testcase.RegisterPatientTestCase@31190526]" started-at="2026-02-10T00:40:45 IST" name="init1" finished-at="2026-02-10T00:40:53 IST" duration-ms="8172" status="PASS">
+    <test started-at="2026-02-11T23:56:40 IST" name="Default test" finished-at="2026-02-11T23:57:15 IST" duration-ms="35002">
+      <class name="com.qa.testcase.ChangeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcase.ChangeTest@4b2bac3f]" started-at="2026-02-11T23:56:41 IST" name="setup" finished-at="2026-02-11T23:56:52 IST" duration-ms="10334" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init1 -->
-        <test-method signature="Test_Register_patient_TestCase()[pri:0, instance:com.qa.testcase.RegisterPatientTestCase@31190526]" started-at="2026-02-10T00:40:53 IST" name="Test_Register_patient_TestCase" finished-at="2026-02-10T00:41:02 IST" duration-ms="9054" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="TestChange_Pass(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.ChangeTest@4b2bac3f]" started-at="2026-02-11T23:56:52 IST" name="TestChange_Pass" data-provider="change" finished-at="2026-02-11T23:56:58 IST" duration-ms="6286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Register_patient_TestCase -->
-      </class> <!-- com.qa.testcase.RegisterPatientTestCase -->
+        </test-method> <!-- TestChange_Pass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcase.ChangeTest@4b2bac3f]" started-at="2026-02-11T23:56:58 IST" name="teardown" finished-at="2026-02-11T23:56:58 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcase.ChangeTest@4b2bac3f]" started-at="2026-02-11T23:56:58 IST" name="setup" finished-at="2026-02-11T23:57:07 IST" duration-ms="8199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestChange_Pass(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testcase.ChangeTest@4b2bac3f]" started-at="2026-02-11T23:57:07 IST" name="TestChange_Pass" data-provider="change" finished-at="2026-02-11T23:57:15 IST" duration-ms="8515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anita123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anita123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestChange_Pass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcase.ChangeTest@4b2bac3f]" started-at="2026-02-11T23:57:15 IST" name="teardown" finished-at="2026-02-11T23:57:15 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcase.ChangeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

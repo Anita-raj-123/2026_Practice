@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testcase.RegisterPatientTestCase">
+      <class name="com.qa.testcase.ChangeTest">
         <methods>
-          <include name="init1"/>
-          <include name="Test_Register_patient_TestCase"/>
+          <include name="TestChange_Pass" invocation-numbers="1 2 3"/>
+          <include name="teardown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.testcase.RegisterPatientTestCase -->
+      </class> <!-- com.qa.testcase.ChangeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
