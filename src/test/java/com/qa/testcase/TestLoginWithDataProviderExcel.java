@@ -14,12 +14,12 @@ import com.qa.page.Homepage;
 import com.qa.page.LoginPage;
 import com.qa.utill.Excelutil;
 
-public class LoginWithDataProviderExcel extends BaseTest {
+public class TestLoginWithDataProviderExcel extends BaseTest {
 
 	LoginPage loginP;
 	Homepage Homep;
 
-	public LoginWithDataProviderExcel() {
+	public TestLoginWithDataProviderExcel() {
 		super();
 	}
 
